@@ -1,0 +1,13 @@
+:root {
+    --f-family: "Hind", "sans-serif", var(--f-style);
+    --f-style: "normal";
+    --font-1: 28px;
+    --font-2: 25px;
+    --font-3: 20px;
+    --font-4: 17px;
+    --f-weight-6: 600;
+    --f-weight-5: 500;
+    --color-dark: rgb(36, 36, 36);
+    --color-light: rgb(255, 255, 255);
+    --page-size: 1240px;
+}
