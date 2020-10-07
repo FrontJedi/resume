@@ -4,6 +4,7 @@
   height: auto;
   margin: 0 auto;
   display: flex;
+  border: 1px solid gray;
 }
 
 .contact {
@@ -39,8 +40,6 @@
 .photo {
   max-width: 230px;
   width: 100%;
-  min-height: 230px;
-  height: 100%;
   border: 4px solid var(--color-light);
   border-radius: 50%;
 }
@@ -88,12 +87,11 @@
   margin-top: 25px;
 }
 
-.contact-subtitle,
-.contact-subtitle > a {
+.contact-subtitle, .contact-subtitle>a {
   color: var(--color-light);
 }
 
-.contact-subtitle > a {
+.contact-subtitle>a {
   text-decoration: none;
 }
 
@@ -130,8 +128,7 @@
   padding-top: 78px;
 }
 
-.container-experience,
-.container-education {
+.container-experience, .container-education {
   padding-top: 120px;
 }
 
@@ -169,8 +166,7 @@
   padding-bottom: 0;
 }
 
-.timeline li::before,
-.timeline li::after {
+.timeline li::before, .timeline li::after {
   content: "";
   display: block;
   position: absolute;
@@ -212,8 +208,7 @@
   justify-content: space-between;
 }
 
-.pro-skills,
-.personal-skills {
+.pro-skills, .personal-skills {
   width: 50%;
   padding-right: 10%;
 }
@@ -247,8 +242,7 @@
   border-radius: 20px;
 }
 
-.adobe::before,
-.communication::before {
+.adobe::before, .communication::before {
   position: absolute;
   content: "";
   width: 70%;
@@ -258,8 +252,7 @@
   border-radius: 20px;
 }
 
-.photoshop::before,
-.teamwork::before {
+.photoshop::before, .teamwork::before {
   position: absolute;
   content: "";
   width: 80%;
@@ -269,8 +262,7 @@
   border-radius: 20px;
 }
 
-.mac::before,
-.leadship::before {
+.mac::before, .leadship::before {
   position: absolute;
   content: "";
   width: 75%;
@@ -280,8 +272,7 @@
   border-radius: 20px;
 }
 
-.sketch::before,
-.creativiti::before {
+.sketch::before, .creativiti::before {
   position: absolute;
   content: "";
   width: 90%;
@@ -299,7 +290,7 @@
   padding-top: 60px;
 }
 
-.container-interests > .title {
+.container-interests>.title {
   text-decoration: uppercase;
 }
 
@@ -319,7 +310,7 @@
   margin-right: 4px;
 }
 
-.btn > .subtitle-skill {
+.btn>.subtitle-skill {
   position: absolute;
   top: -5px;
   left: calc(50% - 30px);
